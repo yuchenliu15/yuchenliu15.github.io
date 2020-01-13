@@ -17,7 +17,8 @@ body{
 
 #profile_pic{
     max-width: 100px;
-    width: 100%;
+    width: 100px;
+    height: 100px;
     grid-column: 2;
     margin-top: 15px;
 }
