@@ -21,3 +21,5 @@ body { overflow: auto; overflow-y: scroll; overflow-x: hidden; }
 .footer p { text-align: center; margin-top: 60px; font-size: 13px; font-family: sans-serif; color: #7f8fa6; }
 
 @media screen and (max-width: 1024px) { #background { width: 50%; margin-left: -512px; } }
+
+/*# sourceMappingURL=style.css.map */
