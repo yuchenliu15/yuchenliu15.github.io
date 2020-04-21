@@ -10,17 +10,11 @@ body{
 
 .intro{
     display: grid;
-    grid-template-columns: 10% 30% 20% 40%;
+    grid-template-columns: 15% 45% 40%;
     grid-template-rows: 120px 50% 50;
     align-content: center;
 }
 
-#profile_pic{
-    max-width: 35%;
-    height: auto;
-    grid-column: 3;
-    border-radius: 50%;
-}
 
 .name{
     grid-row: 2;
@@ -44,12 +38,8 @@ body{
 .description{
     display: block;
     font-family: "Roboto";
-    grid-column: 2/4;
-}
-
-.description .body {
+    grid-column: 2;
     grid-row: 3/5;
-    grid-column: 2/4;
     font-size: 1.1em;
 }
 
@@ -63,7 +53,33 @@ body{
 .links a{
     font-size: 0.9em;
     text-decoration: none;
-    color: #6c5ce7;
+    color: #000000;
+    position: relative;
+}
+
+.links a::after{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 60%;
+    left: -0.1em;
+    right: -0.1em;
+    bottom: 0;
+    transition: top 200ms cubic-bezier(0, .8, .13, 1);
+    background-color: #f7d794;
+}
+
+
+.links a:hover::after {
+    top: 0;
+}
+
+.links a:visited{
+    color: #000000;
+    border-bottom: 0.5em solid #63cdda;
+    border-bottom-width: 1em;
+    line-height: 20px;
+    margin-bottom: 5px;
 }
 
 footer{
