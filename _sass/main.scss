@@ -50,7 +50,6 @@ body{
 
 .intro{
     grid-area: intro;
-    //align-content: center;
 }
 
 
@@ -124,9 +123,26 @@ footer p{
     font-family: sans-serif;
 }
 
-@media screen and (max-width:1024px){
-    #background{
-        width: 50%;
-        margin-left: -512px;
+@media screen and (max-width:420px){
+    .container {
+        min-height: 100%;
+        display: grid;
+        grid-template-columns: 15% 45% 40%;
+        grid-template-rows: repeat(5, 20%);
+        grid-template-areas: 
+            "nav nav nav"
+            "intro intro intro"
+            "intro intro intro"
+            "intro intro intro"
+            "footer footer footer";
+    }
+
+    .navigation li a {
+        color: #808e9b;
+        text-align: center;
+        padding: 1em;
+        font-family: "Roboto";
+        text-decoration: none;
+    
     }
 }
