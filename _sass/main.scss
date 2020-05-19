@@ -19,7 +19,7 @@ body{
     grid-gap: 0;
     grid-template-columns: 15% 50% 35%;
     grid-template-rows: 10% repeat(3, 1fr) auto;
-    grid-template-areas: 
+    grid-template-areas:
         "nav nav nav"
         ". intro ."
         ". intro ."
@@ -132,8 +132,7 @@ body{
         height: 100%;
         display: grid;
         grid-template-columns: 15% 50% 35%;
-        grid-template-rows: 10% repeat(4, 25%) auto;
-        grid-gap: 10px;
+        grid-template-rows: 10% repeat(4, auto) auto;
         grid-template-areas: 
             "nav nav nav"
             "intro intro intro"
@@ -150,5 +149,16 @@ body{
         font-family: "Roboto";
         text-decoration: none;
     
+    }
+
+    .footer{
+        grid-area: footer;
+        background-color: #bdc3c7;
+        height: 60px;
+    }
+
+    .intro{
+        grid-area: intro;
+        padding: 1.5em;
     }
 }
