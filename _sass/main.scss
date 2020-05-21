@@ -162,3 +162,49 @@ body{
         padding: 1.5em;
     }
 }
+
+.blog {
+    grid-area: intro;
+    font-family: "Roboto";
+    font-size: 1.1em;
+    line-height: 2.1em;
+}
+
+.blog-list {
+    list-style: none;
+}
+
+.blog-date {
+    font-family: "Candara";
+    color: black;
+    font-size: 1.2em;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+.blog-title {
+    margin-top: 0;
+    margin-bottom: -10px;
+    text-align: left;
+}
+
+.blog-title a{
+    text-shadow: 1px 1px black;
+    font-family: "Candara";
+    color: #34495e;
+    font-size: 2.2em;   
+}
+
+.blog-title a:visited{
+    text-shadow: 1px 1px black;
+    font-family: "Candara";
+    color: #34495e;
+    font-size: 3em;
+    
+}
+
+.blog-title a{
+    text-decoration: none;
+}
+
+
