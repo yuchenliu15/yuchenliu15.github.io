@@ -11,4 +11,4 @@ I wanted to make cool things such as games and automations.
 I strive to create projects that has positive impact and real life applications.
 My passions lie particularly in fullstack development, blockchain, and open source.
 <br/><br/>
-What I wish to learn in future: APP dev and more math🚀
+What I wish to learn in future: APP dev and more math.
