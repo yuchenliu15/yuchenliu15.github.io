@@ -1,0 +1,6 @@
+plugins:
+  - jekyll-get-json
+
+jekyll_get_json:
+  - data: hello
+    json: 'https://gh-pinned-repos.now.sh/?username=yuchenliu15'

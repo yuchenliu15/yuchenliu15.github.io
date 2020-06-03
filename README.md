@@ -5,3 +5,6 @@ This is my personal website to introduce myself, showcase my projects, and blog.
 ## Goals
 - Since these sites are built with Jekyll, I'd like to keep practicing Jekyll.
 - Experiment with HTML/CSS/JS.
+
+## Built with
+- [Pinned repo API](https://github.com/egoist/gh-pinned-repos) by [@egoist](https://github.com/egoist)
