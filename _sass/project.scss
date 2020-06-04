@@ -1,0 +1,10 @@
+.card-container {
+    grid-column: 2/4;
+    grid-row: 2/4;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.card {
+    display: inline;
+}
