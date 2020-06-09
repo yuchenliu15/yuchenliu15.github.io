@@ -1,3 +1,7 @@
+:root {
+    --theme-color: #F8EFBA;
+}
+
 html {
     height: 100%;
     margin: 0;
@@ -68,17 +72,14 @@ body{
 }
 
 #firstline {
-    text-shadow: 1px 1px black;
-    font-family: "Candara";
-    color: #34495e;
-    font-size: 3.5em;
+    font-family: "Roboto";
+    font-size: 3.8em;
 }
 
 #secondline {
-    text-shadow: 1px 1px black;
-    font-family: "Candara";
-    color: #34495e;
-    font-size: 2em;
+    font-family: "Roboto";
+
+    font-size: 2.5em;
 }
 
 .description{
@@ -123,13 +124,13 @@ body{
 
 .project {
     grid-area: project;
-    background-color: #34495e;
+    background-color: var(--theme-color);
 
 }
 
 .footer{
     grid-area: footer;
-    background-color: #34495e;
+    background-color: var(--theme-color);
     height: 100px;
     text-align: center;
 }
