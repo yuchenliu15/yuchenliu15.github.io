@@ -1,0 +1,11 @@
+- name: covid19 globe
+  link: https://github.com/yuchenliu15/coronavirus-globe
+  description: COVID19 visualization on a globe with Node.js
+
+- name: spaceX countdown
+  link: https://github.com/yuchenliu15/spaceX-timeline
+  description: SpaceX launch countdown with React.js. 
+
+- name: spotify playlist generator
+  link: https://github.com/yuchenliu15/spotify-auto-playlist
+  description: React.js website that generate customized spotify playlist. Work in progess... 

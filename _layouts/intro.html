@@ -20,10 +20,14 @@ layout: default
 
 </div>
 
-
 <div class="project">
-
-    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-
+    <div class="card-container">
+        {% for item in site.data.project %}
+        <div class="card">
+            <h1><a href="{{item.link}}">{{item.name}}</a></h1>
+            <p>{{item.description}}</p>
+        </div>
+        {% endfor %}
+    </div>
 
 </div>
