@@ -12,9 +12,10 @@
 .card {
     font-family: "Roboto";
     background-color: white;
-    height: 250px;
     width: 250px;
     padding: 20px;
+    box-shadow: 0 0 5px grey;
+    border-radius: 5px;
 }
 
 .card a{
@@ -26,4 +27,8 @@
     font-family: "Roboto";
     text-decoration: none;
     color: black;
+}
+
+hr {
+    color: #ecf0f1;
 }
