@@ -6,7 +6,7 @@
     margin-bottom: 120px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+    grid-gap: 30px;
 }
 
 .card {
@@ -32,4 +32,12 @@
 
 hr {
     color: #ecf0f1;
+}
+
+@media screen and (max-width:450px){
+    .card-container {
+        grid-template-columns: auto;
+        grid-gap: 30px;
+
+    }
 }
