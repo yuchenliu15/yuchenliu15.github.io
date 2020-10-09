@@ -6,11 +6,8 @@
     "email": "yl6448@nyu.edu",
     "phone": "(949) 432-1899",
     "website": "https://yuchenliu.me",
-    "summary": "I’m good at working with others to build projects.  My passions lie particularly in software engineeringand  web  development.   My  goal  is  to  work  for  an  organization  which  provides  me  the  challenges  toimprove my skills and a collaborative place with others.",
     "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "",
+      "city": "Newport Beach",
       "countryCode": "US",
       "region": "California"
     },
@@ -26,7 +23,6 @@
     {
       "company": "Propcards, Inc",
       "position": "Web developer intern",
-      "website": "",
       "startDate": "2020-01",
       "endDate": "2020-03",
       "summary": "",
