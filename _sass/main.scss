@@ -27,65 +27,29 @@ body{
     grid-gap: 0;
     grid-template-columns: 15% 50% 20% 15%;
     grid-template-areas:
-        "nav nav nav nav"
         ". intro . ."
         ". intro . ."
-        ". intro . ."
-        "project project project project"
-        "footer footer footer footer";
-}
-
-.navigation {
-    grid-area: nav;
-    list-style-type: none;
-    margin: 0 auto;
-    margin-top: 2.5em;
-    margin-bottom: 2.5em;
-    padding: 0;
-    text-align: center;
-}
-
-.navigation ul {
-    padding: 0;
-}
-
-.navigation li {
-    display: inline;
-}
-
-.navigation li a {
-    color: #808e9b;
-    text-align: center;
-    padding: 2em;
-    font-family: "Roboto";
-    text-decoration: none;
-
-}
-
-.navigation li a:visited{
-    color: #808e9b;
+        ". intro . .";
 }
 
 .intro{
     grid-area: intro;
-    margin-bottom: 60px; //BTW intro & footer
 }
 
 #firstline {
     font-family: "Roboto";
-    font-size: 3.8em;
+    font-size: 4em;
 }
 
 #secondline {
     font-family: "Roboto";
-
     font-size: 2.5em;
 }
 
 .description{
     display: block;
     font-family: "Roboto";
-    font-size: 1.1em;
+    font-size: 1.5em;
     line-height: 2.1em;
 }
 
@@ -95,7 +59,7 @@ body{
 }
 
 .links a{
-    font-size: 0.9em;
+    font-size: 1.2em;
     text-decoration: none;
     color: #000000;
     position: relative;
@@ -159,13 +123,10 @@ body{
         grid-template-columns: 15% 50% 35%;
         grid-template-rows: 10% repeat(4, auto) auto;
         grid-template-areas: 
-            "nav nav nav"
             "intro intro intro"
             "intro intro intro"
             "intro intro intro"
-            "intro intro intro"
-            "project project project"
-            "footer footer footer";
+            "intro intro intro";
     }
 
     .navigation li a {
@@ -178,6 +139,15 @@ body{
 
     .intro{
         padding: 1.5em;
+    }
+    
+    .description{
+        font-size: 1.3em;
+        line-height: 1.6em;
+    }
+
+    .links a{
+        font-size: .9em;
     }
 }
 
