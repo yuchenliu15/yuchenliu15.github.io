@@ -1,14 +1,11 @@
 ---
 layout: intro
-title: Yuchen
+title: Yuchen Liu
 ---
-<p>
-I'm a CS and Data Science student at NYU. 
-My passions lie particularly in fullstack development and open source. 
-</p>
 
-<p>
-I love building web apps because there are so many new things to learn.
-I'm good at writing elegant code and working with a team.
-Btw, if you want to go to hackathons together or have a cool project idea, feel free to hit me up!
-</p>
+I'm studying CS and Data Science at <b>NYU</b>. 
+It's my 5th year in the U.S. now. I started programming in high school to make cool games and automation.
+Now, I mainly work on web development because I'm excited about how fast it's evolving and its combinations of many different technologies.
+I like to predict what products do people want and think about how to make a positive impact.
+My passions lie particularly in fullstack, open source, and software design patterns. 
+<br/>

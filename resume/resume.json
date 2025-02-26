@@ -1,0 +1,98 @@
+{
+  "basics": {
+    "name": "Yuchen Liu",
+    "label": "",
+    "picture": "",
+    "email": "yl6448@nyu.edu",
+    "phone": "(949) 432-1899",
+    "website": "https://yuchenliu.me",
+    "location": {
+      "city": "Newport Beach",
+      "countryCode": "US",
+      "region": "California"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "yuchenliu15",
+        "url": "https://github.com/yuchenliu15"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Propcards, Inc",
+      "position": "Web developer intern",
+      "startDate": "2020-01",
+      "endDate": "2020-03",
+      "summary": "",
+      "highlights": [
+        "Utilize  multiple  RESTful  APIs  and  socket.io  to  achieve  synchronization  between  users.   Developeddeep understanding in asynchronous programming and computer networks.  Used Node.js to calculaterotation angles in 3D models and requests controlling.",
+        "Website design with HTML/CSS/JS"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "New York University",
+      "area": "CS and Data Science",
+      "studyType": "Bachelor",
+      "startDate": "2020-09",
+      "endDate": "2023-06",
+      "gpa": "",
+      "courses": [
+        "Multivariable calculus",
+        "Data Structure",
+        "Discrete Math",
+        "Computer System Organization"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Coronavirus globe",
+      "description": "Node.js application with Google Cloud API and SQLITE3 storage.  Visualization via Three.js."
+    },
+    {
+      "name": "SpaceX counter",
+      "description": "React.js application with SpaceX API display the SpaceX launches information"
+    },
+    {
+      "name": "Trump’s tweets sentiment analysis",
+      "description": "Use Twitter API and Pandas to collect and organize data.  Able to conclude Trump’s sentiment towardcentain topic and his crowd’s reaction via Seaborn visualization, numpy, and VADER"
+    }
+  ],
+  "awards": [
+    {
+      "title": " UiPath Award",
+      "date": "2020-3",
+      "awarder": "HackNYU",
+      "summary": ""
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming",
+      "level": "",
+      "keywords": [
+        "React/Redux",
+        "Node/Express",
+        "Python",
+        "Java",
+        "HTML/CSS/JS",
+        "Bootstrap 4",
+        "SQL",
+        "MongoDB",
+        "Firebase"
+      ]
+    },
+    {
+      "name": "Toolings",
+      "level": "",
+      "keywords": [
+        "Git",
+        "Linux"
+      ]
+    }
+  ]
+}
