@@ -24,25 +24,23 @@ body{
     font-weight: 900;
 }
 
-
 .container {
     display: grid;
     grid-gap: 0;
-    grid-template-columns: 5% 90% 5%;
+    grid-template-columns: 5% 40% 55%;
     grid-template-areas:
-        ". navigator navigator"
+        ". navigator ."
         ". intro ."
         ". intro ."
         ". intro .";
 
     @media only screen and (max-device-width: 480px){
-        grid-template-columns: 20% 60% 20%;
+        grid-template-columns: 100%;
         grid-template-areas: 
-            "navigator navigator navigator"
-            "intro intro intro"
-            "intro intro intro"
-            "intro intro intro";
-
+            "navigator"
+            "intro"
+            "intro"
+            "intro";
     }
 }
 
@@ -80,7 +78,6 @@ a{
     }
 }
 
-
 a:hover {
     background-color: #95afc0;
 }
@@ -104,13 +101,11 @@ a:visited{
     cursor: pointer;
 }
 
-
-
 .intro {
     grid-area: intro;
     .title {
         font-family: "Violet";
-        font-size: 5em;
+        font-size: 3em;
         line-height: 1.5em;
         color: #30336b;
     }
@@ -123,7 +118,7 @@ a:visited{
     .description{
         display: block;
         font-family: "Violet";
-        font-size: 3.5em;
+        font-size: 2em;
         font-weight: 700;
         line-height: 1.2em;
     }
@@ -157,7 +152,5 @@ a:visited{
         }
         
     }
-    
-
 }
 
