@@ -18,8 +18,8 @@ body{
 }
 
 @font-face {
-    font-family: 'Poppins';
-    src: url("../fonts/Poppins-ExtraBold.ttf");
+    font-family: 'Violet';
+    src: url("../fonts/VioletSans-Regular.ttf");
     font-weight: 900;
 }
 
@@ -70,7 +70,7 @@ a{
     text-decoration: none;
     color: #201717;
     position: relative;
-    font-family: 'Poppins';
+    font-family: 'Violet';
     font-weight: 900;
 
     @media only screen and (max-device-width: 480px) {
@@ -89,7 +89,7 @@ a:visited{
 }
 
 .button {
-    font-family: 'Poppins';
+    font-family: 'Violet';
     font-weight: 900;
     font-size: 1em;
     text-decoration: none;
@@ -108,7 +108,7 @@ a:visited{
 .intro {
     grid-area: intro;
     .title {
-        font-family: "Poppins";
+        font-family: "Violet";
         font-size: 5em;
         line-height: 1.5em;
         color: #30336b;
@@ -121,7 +121,7 @@ a:visited{
 
     .description{
         display: block;
-        font-family: "Poppins";
+        font-family: "Violet";
         font-size: 3.5em;
         font-weight: 700;
         line-height: 1.2em;
