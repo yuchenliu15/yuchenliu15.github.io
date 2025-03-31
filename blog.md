@@ -1,6 +1,6 @@
 ---
 layout: default
-title: blog
+title: Yuchen's blog 
 ---
 
 <div class="intro">
